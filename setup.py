@@ -13,7 +13,7 @@ setup(
     description=version.__description__,
     python_requires='>=3.8',
     install_requires=[
-        'online-judge-api-client >= 10.9.0, < 11',
+        'online-judge-api-client @ git+https://github.com/rotarymars/api-client.git',
         'colorama >= 0.3, < 1',
         'packaging >= 24',
         'requests >= 2, < 3',
